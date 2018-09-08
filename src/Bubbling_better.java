@@ -19,7 +19,7 @@ public class Bubbling_better {
 	}
 	public static int[] BubbleSort(int[] data,int n) {
 		int i=n,tmp;
-		while(i>0) {
+		while(i>0) {//改进算法，若除了第一次比较之外没有其他的比较，则认为排序已完成
 			int lastExchangeIndex=0;
 			for(int j=0;j<i;j++) {
 				if(data[j+1]<data[j]) {
