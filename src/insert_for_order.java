@@ -1,10 +1,10 @@
 import java.io.*;
 //利用链表实现插入，减少插入造成的复杂度
-public class insert_for_order {
+public class Insert_for_order {
 	 int data[]=new int [6];
 	 int   size=6;
 	public static void main(String[] args) {
-		insert_for_order test = new insert_for_order();
+		Insert_for_order test = new Insert_for_order();
 		test.inputarr();
 		System.out.print("您输入的原始数组是：");
 		test.showdata();
