@@ -3,7 +3,7 @@ public class Bubbling_better {
 	public static void main(String[] args) {
 		int i,j,tmp;
 		int data[]= {6,5,9,7,2,8};//原始数据
-		
+
 		System.out.println("冒泡排序");
 		System.out.println("原始数据为：");
 		for(i=0;i<6;i++) {

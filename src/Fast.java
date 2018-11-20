@@ -69,7 +69,7 @@ public class Fast {
 					rg_idx--;
 				}
 				
-				if(lf_idx<rg_idx) {//4:
+				if(lf_idx<rg_idx) {//4:lf_idx<rg_idx
 					tmp=d[lf_idx];
 					d[lf_idx]=d[rg_idx];
 					d[rg_idx]=tmp;//然后继续排序过程
